@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cookstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Alyna's Kitchen</title>
+</head>
+<body>
+<header>
+    <img id="logo" src="cookbookimg/logo.png" alt="logo">
+    <form class="searchbar">
+        <input type="text" class="input" placeholder="Search">
+        <button class="submit" type="submit"><i class="fa fa-search"></i></button>
+    </form>
+    <!-- Hamburger icon -->
+    <input type="checkbox" id="checkbox_toggle" />
+    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <nav class="menu">
+            <li><a href="cookbook.html">Home</a></li>
+            <li><a href="#owner">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+    </nav>
+
+    <!-- Big nav bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="cookbook.html">Home</a></li>
+            <li><a href="#owner">About</a></li>
+            <li><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container"></div>
+<main>
+    <section class="outline">
+        <h1>Alyna's Kitchen</h1>
+        <p>Cooking is the best therapy.</p>
+        <form class="rebu" action="#recipes"><input type="submit" class="recipes_button" value="All of my recipes are here!" /></form>
+    </section>
+    <div class="container"></div>
+    <div class="gallery">
+        <div class="p_roti">
+            <img src="cookbookimg/rotiboy.jpg" alt="rotiboy" class="rotiboy">
+        </div>
+        <div class="minigallery">
+        <div class="p_banabread">
+            <img src="cookbookimg/banana-bread.png" alt="banabread" class="banabread">
+        </div>
+        <div class="p_mexicanbuns">
+            <img src="cookbookimg/mexicanbuns.jpg" alt="mexbun" class="mexbun">
+        </div>
+        </div>
+        <div class="p_tiramisu">
+            <img src="cookbookimg/tiramisu1.jpg" alt="tiramisu" class="tira1">
+        </div>
+    </div>
+    <div class="container"></div>
+    <div class="container empty"></div>
+    <h2 class="owner">Owner</h2>
+    <div id="owner">
+        <div class="owner_left">
+            <div class="circle"><img src="cookbookimg/girl.png" alt="bio_photo"></div>
+            <p class="name">Alyna</p>
+        </div>
+    
+        <div class="owner_right">
+            <p class="p1">Hello my lovely visitor</p>
+            <br><br>
+            <p class="p2">Thank you for visiting this website. 
+                This is just a basic HTML/CSS website that
+                I created to practice coding and save my recipes!</p>
+            <div class="container"></div>
+            <p class="p3">Happy coding and cooking!</p>
+        </div>
+    </div>
+
+    <div id="recipes" class="container"></div>
+    <div class="container"></div>
+    <div class="container"></div>
+
+    <div>
+        <section class="recipes_headline">
+            <h2>All-time Favourite Recipes</h2>
+            <p>.....</p>
+        </section>
+    
+        <div class="container"></div>
+
+        <div id="banana_bread" class="big_card">
+            <div class="card_left">
+                <img src="cookbookimg/banana-bread.png" alt="Banana Bread Picture">
+                <div class="name_container"><h3>Banana Bread</h3></div>
+            </div>
+            <div class="card_right">
+                <div class="information">
+                    <h4>Information</h4><br>
+                    <p> 
+                        <span class="bold">Time:</span> 1.5 hours <br>
+                        <span class="bold">Difficulty:</span> 1/5 <br>
+                        <span class="bold">Tools:</span> whisker(optional), kitchen scale, measuring cups (optional) <br>
+                        <span class="bold">Calories:</span> 1062 (the whole loaf) <br>
+                    </p>
+                </div>
+
+                <div class="ingredients">
+                    <h4>Ingredients</h4><br>
+                    <p>
+                        2-3 bananas (depending on the size), peeled <br>
+                        38g unsalted butter, melted <br>
+                        1/4 tsp baking soda <br>
+                        1/2 pinch salt <br>
+                        35g sugar (less or more of choice) <br>
+                        1/2 large egg <br>
+                        1/2 tsp vanilla extract <br>
+                        80g all-purposed flour <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container emptyx"></div>
+        <div class="container empty"></div>
+
+        <div id="paparoti" class="paparoti_card">
+            <div class="paparoti_left">
+                <img src="cookbookimg/papparoti.png" alt="Paparoti Picture">
+                <div class="name_container"><h3>Papparoti</h3></div>
+            </div>
+            <div class="paparoti_right">
+                <div class="information">
+                    <h4>Information</h4><br>
+                    <p> 
+                        <span class="bold">Time:</span> 2 - 5 hours <br>
+                        <span class="bold">Difficulty:</span> 3/5 <br>
+                        <span class="bold">Tools:</span> kitchen scale, kneading mat (optional), pipping bag, baking mat (recommended) <br>
+                        <span class="bold">Calories:</span> 303 calories/bun (6 buns total) <br>
+                    </p>
+                </div>
+
+                <div class="ingredients">
+                    <h4>Ingredients</h4><br>
+                        <div class="grid">
+                        <div class="column">
+                        <span class="part">Bread dough</span><br>
+                        180g flour (all-purposed/bread) <br>
+                        25g caster sugar<br>
+                        2g salt<br>
+                        4g instant yeast<br>
+                        1/2 egg (approx. 25g)<br>
+                        120ml milk (1% fat)<br>
+                        30g unsalted butter<br>
+                        </div>
+                        <div class="column">
+                        <span class="part">Fillings</span><br>
+                        Of choice, eg. chocolate, custard, cream cheese, etc.<br>
+                        <br><br><span class="part">Coffee topping</span><br>
+                        2g black coffee<br>
+                        5ml milk/water<br>
+                        1/2 egg (approx.25g)<br>
+                        35g icing sugar<br>
+                        40g flour<br>
+                        40g unsalted butter<br>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container emptyx"></div>
+        <div class="container empty"></div>
+
+        <div id="tuiles" class="big_card">
+            <div class="card_left">
+                <img src="cookbookimg/tuiles.png" alt="Tuiles Picture">
+                <div class="name_container"><h3>Tuiles</h3></div>
+            </div>
+            <div class="card_right">
+                <div class="information">
+                    <h4>Information</h4><br>
+                    <p> 
+                        <span class="bold">Time:</span> 30 minutes <br>
+                        <span class="bold">Difficulty:</span> 1/5 <br>
+                        <span class="bold">Tools:</span> whisker, kitchen scale, measuring cups (optional) <br>
+                        <span class="bold">Calories:</span> 500 (12-20 pieces) <br>
+                    </p>
+                </div>
+
+                <div class="ingredients">
+                    <h4>Ingredients</h4><br>
+                    <p>
+                        40g sliced almond <br>
+                        1 egg white<br>
+                        20g caster sugar<br>
+                        1.5ml vanilla extract<br>
+                        1 tiny pinch salt<br>
+                        10g all-purposed flour<br>
+                        1/2 lemon zest (optional)<br>
+                        15g unsalted butter, melted<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container emptyx"></div>
+        <div class="container empty"></div>
+
+        <div id="tiramisu" class="big_card">
+            <div class="card_left">
+                <img src="cookbookimg/tiramisu.png" alt="Tiramisu Picture">
+                <div class="name_container"><h3>Tiramisu</h3></div>
+            </div>
+            <div class="card_right">
+                <div class="information">
+                    <h4>Information</h4><br>
+                    <p> 
+                        <span class="bold">Time:</span> 30 minutes <br>
+                        <span class="bold">Difficulty:</span> 1/5 <br>
+                        <span class="bold">Tools:</span> whisker, kitchen scale, measuring cups (optional) <br>
+                        <span class="bold">Calories:</span> 1639 (the whole bowl) <br>
+                    </p>
+                </div>
+
+                <div class="ingredients">
+                    <h4>Ingredients</h4><br>
+                    <p>
+                        1.5-2 pasteurized eggs (approx. 75g), separated <br>
+                        250g mascarpone, room temp. <br>
+                        1/4 tsp salt <br>
+                        50g sugar <br>
+                        100g ladyfinger <br>
+                        1 cup strong coffee <br>
+                        1 tbsp cocoa powder <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- small card for phones -->
+        <div class="my_menu">
+
+        <div id="small_bananabread" class="smallcard">
+        <div class="innercard">
+            <div class="frontcard">
+                <img src="cookbookimg/banana-bread.png" alt="Banana Bread Picture">
+                <h3>Banana Bread</h3>
+            </div>
+            <div class="backcard">
+                <div class="information">
+                    <h4>Information</h4>
+                    <p> 
+                        <span class="bold">Time:</span> 1.5 hours <br>
+                        <span class="bold">Difficulty:</span> 1/5 <br>
+                        <span class="bold">Tools:</span> whisker(optional), kitchen scale, measuring cups (optional) <br>
+                        <span class="bold">Calories:</span> 1062 (the whole loaf) <br>
+                    </p>
+                </div>
+
+                <div class="ingredients">
+                    <h4>Ingredients</h4>
+                    <p>
+                        2-3 bananas (depending on the size), peeled <br>
+                        38g unsalted butter, melted <br>
+                        1/4 tsp baking soda <br>
+                        1/2 pinch salt <br>
+                        35g sugar (less or more of choice) <br>
+                        1/2 large egg <br>
+                        1/2 tsp vanilla extract <br>
+                        80g all-purposed flour <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="paparoti_smallcard">
+        <div class="paparoti_innercard">
+            <div class="paparoti_frontcard">
+                <img src="cookbookimg/papparoti.png" alt="Paparoti Picture">
+                <div class="name_container"><h3>Papparoti</h3></div>
+            </div>
+            <div class="paparoti_backcard">
+                <div class="information">
+                    <h4>Information</h4><br>
+                    <p> 
+                        <span class="bold">Time:</span> 2 - 5 hours <br>
+                        <span class="bold">Difficulty:</span> 3/5 <br>
+                        <span class="bold">Tools:</span> kitchen scale, kneading mat (optional), pipping bag, baking mat (recommended) <br>
+                        <span class="bold">Calories:</span> 303 calories/bun (6 buns total) <br>
+                    </p>
+                </div>
+
+                <div class="ingredients">
+                    <h4>Ingredients</h4><br>
+                        <div class="grid">
+                        <div class="column">
+                        <span class="part">Bread dough</span><br>
+                        180g flour (all-purposed/bread) <br>
+                        25g caster sugar<br>
+                        2g salt<br>
+                        4g instant yeast<br>
+                        1/2 egg (approx. 25g)<br>
+                        120ml milk (1% fat)<br>
+                        30g unsalted butter<br>
+                        </div>
+                        <div class="column">
+                        <span class="part">Fillings</span><br>
+                        Of choice, eg. chocolate, custard, cream cheese, etc.<br>
+                        <br><br><span class="part">Coffee topping</span><br>
+                        2g black coffee<br>
+                        5ml milk/water<br>
+                        1/2 egg (approx.25g)<br>
+                        35g icing sugar<br>
+                        40g flour<br>
+                        40g unsalted butter<br>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+        <div id="small_tuiles" class="smallcard">
+            <div class="innercard">
+                <div class="frontcard">
+                    <img src="cookbookimg/tuiles.png" alt="Tuiles Picture">
+                    <h3>Tuiles</h3>
+                </div>
+                <div class="backcard">
+                    <div class="information">
+                        <h4>Information</h4>
+                        <p> 
+                            <span class="bold">Time:</span> 30 minutes <br>
+                            <span class="bold">Difficulty:</span> 1/5 <br>
+                            <span class="bold">Tools:</span> whisker(optional), kitchen scale, measuring cups (optional) <br>
+                            <span class="bold">Calories:</span> 500 (12 pieces) <br>
+                        </p>
+                    </div>
+    
+                    <div class="ingredients">
+                        <h4>Ingredients</h4>
+                        <p>
+                            40g sliced almond <br>
+                            1 egg white <br>
+                            20g caster sugar <br>
+                            1.5ml vanilla extract <br>
+                            1 tiny pinch salt <br>
+                            10g all-purposed flour <br>
+                            1/2 lemon zest (optional) <br>
+                            15g unsalted butter, melted <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div id="small_tiramisu" class="smallcard">
+                <div class="innercard">
+                    <div class="frontcard">
+                        <img src="cookbookimg/tiramisu.png" alt="Tiramisu Picture">
+                        <h3>Tiramisu</h3>
+                    </div>
+                    <div class="backcard">
+                        <div class="information">
+                            <h4>Information</h4>
+                            <p> 
+                                <span class="bold">Time:</span> 30 minutes <br>
+                                <span class="bold">Difficulty:</span> 1/5 <br>
+                                <span class="bold">Tools:</span> whisker, kitchen scale, measuring cups (optional) <br>
+                                <span class="bold">Calories:</span> 1639 (the whole bowl) <br>
+                            </p>
+                        </div>
+        
+                        <div class="ingredients">
+                            <h4>Ingredients</h4>
+                            <p>
+                                1.5-2 pasteurized eggs (approx. 75g), separated <br>
+                                250g mascarpone, room temp. <br>
+                                1/4 tsp salt <br>
+                                50g sugar <br>
+                                100g ladyfinger <br>
+                                1 cup strong coffee <br>
+                                1 tbsp cocoa powder <br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                </div>
+
+    </div>
+
+    <div class="container"></div>
+    <div class="container empty"></div>
+
+    <div id="contact">
+        <h3>You want to share or ask something? Contact me!</h3>
+        <br>
+        <hr class="line">
+        <br>
+        <div class="icons">
+            <a target="_blank" href="facebook.com"><svg id="facebook" class="h-8 w-8 text-black"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" /></svg></a>
+            <a target="_blank" href="github.com"><svg id="github" class="h-8 w-8 text-black"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" /></svg></a>
+            <a target="_blank" href="instagram.com"><svg id="instagram" class="h-8 w-8 text-black"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg></a>
+        </div>
+    </div>
+
+    <footer>
+        <br><br>
+        <hr class="white">
+        <img src="cookbookimg/bake.png" alt="baking">
+        <p>Alyna’s Kitchen @ 2022. All rights reserved<br>
+        Made with love by Alyna</p>
+    </footer>
+</main>
+</body>
+</html>
