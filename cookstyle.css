@@ -78,7 +78,9 @@ header{
     height: 100%;
     background-color:rgba(132, 115, 102, 0.25);
     color: #3C3631E5;
-    font: italic 1rem 'Mulish Light';
+    font-size: 1rem;
+    font-family: 'Mulish Light', Helvetica, sans-serif;
+    font-weight: lighter;
     border: none;
     border-radius: 30px;
     padding-inline-start: 15px;
@@ -125,7 +127,8 @@ nav{
     padding: 20px;
     text-decoration: none;
     color: var(--brown-letter);
-    font-family: 'Mulish-Regular';
+    font-family: 'Mulish-Regular', Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .navbar li a:hover{
@@ -176,7 +179,8 @@ input[type=checkbox]{
     .menu li a{
         text-decoration: none;
         color: var(--brown-letter);
-        font-family: 'Mulish-Regular';
+        font-family: 'Mulish-Regular', Helvetica, sans-serif;
+        font-weight: 300;
         display: inline-block;
         width: 100%;
         padding: 20px 5px;
@@ -226,7 +230,8 @@ h1{
 }
 
 .outline p{
-    font: 3rem 'Artifact';
+    font-size: 3rem;
+    font-family: 'Artifact', fantasy;
     padding-top: 2%;
     align-self: flex-end;
     padding-right: 15%;
@@ -266,7 +271,7 @@ h1{
 
 @media (max-width: 768px){
     h1{
-        font-size: 3.5rem;
+        font-size: 3.2rem;
         padding-left: 7%;
     }
     .outline p{
@@ -377,7 +382,8 @@ h2.owner
 }
 
 .name{
-    font: 1.5em 'Artifact';
+    font-size: 1.5em;
+    font-family: 'Artifact', fantasy ;
     text-align: center;
 }
 
@@ -385,10 +391,12 @@ h2.owner
 .owner_right{
     width: 60%;
     height: 100%;
+    padding: 2%;
 }
 
 .p1{
-    font: 1.5rem 'Artifact';
+    font-size: 1.5rem;
+    font-family: 'Artifact', fantasy;
     padding-top: 8%;
 }
 
@@ -397,7 +405,10 @@ h2.owner
 }
 
 .p3{
-    font: italic 1.2rem 'Mulish Light';
+    font-size: 1.2rem;
+    font-family:  'Mulish Light', Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 300;
     float: right;
 }
 
