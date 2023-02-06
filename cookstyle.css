@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'Mulish Light';
+    font-family: 'Mulish-Light';
     src: url('cookfonts/Mulish-Light.ttf') format('ttf');
 }
 
@@ -79,7 +79,7 @@ header{
     background-color:rgba(132, 115, 102, 0.25);
     color: #3C3631E5;
     font-size: 1rem;
-    font-family: 'Mulish Light', Helvetica, sans-serif;
+    font-family: 'Mulish-Light', Helvetica, sans-serif;
     font-weight: lighter;
     border: none;
     border-radius: 30px;
@@ -406,7 +406,7 @@ h2.owner
 
 .p3{
     font-size: 1.2rem;
-    font-family:  'Mulish Light', Helvetica, sans-serif;
+    font-family:  'Mulish-Light', Helvetica, sans-serif;
     font-style: italic;
     font-weight: 300;
     float: right;
@@ -506,7 +506,9 @@ h4{
 
 .information, .ingredients{
     text-align: left;
-    font: lighter 1.5rem 'Mulish-Regular';
+    font-size: 1.5rem;
+    font-family: 'Mulish-Regular', Helvetica, sans-serif;
+    font-weight: 100;
     padding-right: 2%;
 }
 
@@ -516,7 +518,7 @@ h4{
 }
 
 .bold{
-    font-weight: 400;
+    font-weight: 600;
 }
 
 
@@ -727,7 +729,9 @@ h4{
 
     .backcard p{
         text-align: left;
-        font: lighter 1rem 'Mulish-Regular';
+        font-size: 1rem;
+        font-family: 'Mulish-Regular', Helvetica, sans-serif;
+        font-weight: lighter;
         padding: 5%;
     }
 
@@ -737,6 +741,8 @@ h4{
 
     .paparoti_backcard .column{
         font-size: 0.8rem;
+        font-family: 'Mulish-Light', Helvetica, sans-serif;
+        font-weight: 100;
     }
 
     .backcard .ingredients p{
@@ -861,7 +867,9 @@ footer img{
 }
 
 footer p{
-    font: 1.2rem 'Mulish Light';
+    font-size: 1.2rem;
+    font-family: 'Mulish-Light', Helvetica, sans-serif;
+    font-weight: 100;
     padding: 3%;
 }
 
